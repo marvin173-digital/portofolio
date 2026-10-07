@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marvin Octavianus Salim Purnama | Computer Science Student, Cloud Engineer Aspirant</title>
+  <meta name="description" content="Computer Science student at BINUS Bandung aiming for a Cloud Engineer role. Experience in Python, AI/ML, backend and frontend development.">
+  <style>
+    :root {
+      --bg: #f1f5f9;
+      --surface: #fff;
+      --ink: #0f1c2e;
+      --muted: #4a5a70;
+      --line: #d3dce8;
+      --accent: #1d5fc4;
+      --accent-ink: #fff;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --bg: #0e1724;
+        --surface: #152133;
+        --ink: #e8eef7;
+        --muted: #9fb0c6;
+        --line: #27384f;
+        --accent: #6aa3ff;
+        --accent-ink: #0e1724;
+      }
+    }
+    
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 1rem/1.65 "Segoe UI", system-ui, -apple-system, Roboto, sans-serif; }
+    a { color: var(--accent); }
+    :focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+    
+    header { position: sticky; top: 0; background: var(--bg); border-bottom: 1px solid var(--line); z-index: 5; }
+    nav { max-width: 860px; margin: 0 auto; padding: .7rem 1.25rem; display: flex; gap: 1.25rem; flex-wrap: wrap; align-items: center; }
+    nav b { margin-right: auto; }
+    nav a { color: var(--ink); text-decoration: none; font-size: .95rem; }
+    nav a:hover { color: var(--accent); }
+    
+    main { max-width: 860px; margin: 0 auto; padding: 0 1.25rem; }
+    section { padding: 3rem 0 1rem; }
+    
+    h1 { font-size: clamp(2rem, 6vw, 3.2rem); line-height: 1.1; margin: 0 0 .6rem; letter-spacing: -.02em; }
+    h2 { font-size: 1.5rem; margin: 0 0 1rem; }
+    h3 { margin: 0 0 .3rem; font-size: 1.1rem; }
+    p { max-width: 65ch; margin: 0 0 1rem; }
+    
+    .hero { padding-top: 4rem; }
+    .role { font-size: 1.2rem; color: var(--accent); font-weight: 600; margin-bottom: 1rem; }
+    
+    .btns { display: flex; gap: .75rem; flex-wrap: wrap; margin-top: 1.5rem; }
+    .btn { display: inline-block; padding: .7rem 1.3rem; border-radius: 6px; border: 2px solid var(--accent); text-decoration: none; font-weight: 600; }
+    .btn.primary { background: var(--accent); color: var(--accent-ink); }
+    .btn.ghost { color: var(--accent); }
+    
+    .skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem; }
+    .skills h3 { font-size: 1rem; color: var(--muted); }
+    .skills ul, .list { margin: 0; padding-left: 1.1rem; }
+    
+    .card { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 1.4rem; margin-bottom: 1.25rem; }
+    .stack { color: var(--muted); font-size: .92rem; margin-bottom: .8rem; }
+    .shot { width: 100%; aspect-ratio: 16/9; object-fit: cover; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); margin-bottom: 1rem; display: block; }
+    .links { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: .8rem; font-weight: 600; }
+    
+    dl { margin: 0; }
+    dt { font-weight: 600; }
+    dd { margin: 0 0 1rem; color: var(--muted); }
+
+    .certs { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem; margin: 1.25rem 0 0; padding: 0; list-style: none; }
+    .certs figure { margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: .8rem; }
+    .certs img { width: 100%; aspect-ratio: 3/2; object-fit: contain; display: block; background: #fff; border-radius: 4px; }
+    .certs figcaption { font-size: .9rem; color: var(--muted); margin-top: .6rem; }
+    
+    footer { max-width: 860px; margin: 3rem auto 0; padding: 1.5rem 1.25rem 2.5rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+    
+    @media (prefers-reduced-motion: reduce) { 
+      html { scroll-behavior: auto; } 
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav aria-label="Main">
+      <b>Marvin Purnama</b>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <h1>Marvin Octavianus Salim Purnama</h1>
+      <p class="role">Computer Science Student | Aspiring Cloud Engineer</p>
+      <p>BINUS Bandung student building AI/ML, backend, and frontend projects, now moving toward cloud infrastructure with a Google Cloud Computing certificate.</p>
+      <div class="btns">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn ghost" href="Marvin_Octavianus_Salim_Purnama_CV.pdf" download>Download CV</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a fifth-semester Computer Science student at BINUS University Bandung. I started with programming in C and Python, then moved into AI/ML experiments in Google Colab and web development on both the frontend and backend.</p>
+      <p>I am now learning cloud computing because I want to build and run the systems behind applications, not only the applications themselves. My career goal is a Cloud Engineer role, and I am looking for an internship where I can learn from real infrastructure work.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div>
+          <h3>Programming</h3>
+          <ul>
+            <li>C</li>
+            <li>Python</li>
+          </ul>
+        </div>
+        <div>
+          <h3>AI and Machine Learning</h3>
+          <ul>
+            <li>Model experiments in Google Colab</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Web Development</h3>
+          <ul>
+            <li>Frontend</li>
+            <li>Backend</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Cloud</h3>
+          <ul>
+            <li>Google Cloud Computing (certified)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Tools</h3>
+          <ul>
+            <li>Visual Studio Code</li>
+            <li>Google Colab</li>
+            <li>Git and GitHub</li>
+            <li>Workflow automation</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <article class="card">
+        <!-- Replace src with your screenshot, e.g. images/potato-ui.png -->
+        <img class="shot" src="images/potato-disease-ui.png" alt="Screenshot of the Potato Disease UI" loading="lazy">
+        <h3>Potato Disease UI</h3>
+        <p class="stack">HTML, CSS, JavaScript</p>
+        <p>
+          <b>Problem:</b> Farmers and students need an easy way to learn about potato leaf diseases.<br>
+          <b>Solution:</b> A multi-page web interface with a main page and a disease catalog.<br>
+          <b>My contribution:</b> Designed and built the interface, including the catalog page.
+        </p>
+        <div class="links">
+          <a href="https://github.com/marvin173-digital/potato-disease-ui">GitHub repository</a>
+          <a href="https://marvin173-digital.github.io/potato-disease-ui/">Link Website</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="shot" src="images/tugas-akhir-front-end.png" alt="Screenshot of the Tugas Akhir front-end project" loading="lazy">
+        <h3>Tugas Akhir Front-end</h3>
+        <p class="stack">Front-end project (add your stack here)</p>
+        <p>
+          <b>Problem:</b> Describe the problem this project solves.<br>
+          <b>Solution:</b> Describe what you built.<br>
+          <b>My contribution:</b> Describe your role.
+        </p>
+        <div class="links">
+          <a href="https://github.com/marvin173-digital/Tugas-Akhir-Front-end">GitHub repository</a>
+          <a href="https://tugas-akhir-front-end-rlkm.vercel.app/">Link Website</a>
+        </div>
+      </article>
+    </section>
+
+    <section id="education">
+      <h2>Education and Experience</h2>
+      <dl>
+        <dt>BINUS University Bandung</dt>
+        <dd>B.Sc. Computer Science, currently in semester 5</dd>
+      </dl>
+      <dl>
+        <dt>BNCC (Bina Nusantara Computer Club)</dt>
+        <dd>Member. Took part in club events and worked on team projects.</dd>
+      </dl>
+      
+      <h3>Certifications and Achievements</h3>
+      <ul class="list">
+        <li>Google Cloud Computing Certificate</li>
+        <li>Certificate of Participation, "QUT Uncovered" BINUS International Week Sharing Session, May 2026</li>
+        <li>Certificate of Appreciation, Study Abroad Sharing Session "Be Bold: Journey Across Countries", BINUS Bandung, March 2025</li>
+      </ul>
+
+      <ul class="certs">
+        <li><figure><a href="images/cert-google-cloud.png"><img src="images/cert-google-cloud.png" alt="Google Cloud Computing certificate badge" loading="lazy"></a><figcaption>Google Cloud Computing Certificate</figcaption></figure></li>
+        <li><figure><a href="images/cert-qut-uncovered.png"><img src="images/cert-qut-uncovered.png" alt="Certificate of Participation for the QUT Uncovered sharing session, 13 May 2026" loading="lazy"></a><figcaption>QUT Uncovered, BINUS International Week (May 2026)</figcaption></figure></li>
+        <li><figure><a href="images/cert-study-abroad.png"><img src="images/cert-study-abroad.png" alt="Certificate of Appreciation for the Be Bold Study Abroad Sharing Session, 13 March 2025" loading="lazy"></a><figcaption>Study Abroad Sharing Session (March 2025)</figcaption></figure></li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Open to cloud engineering internships and collaboration.</p>
+      <div class="links">
+        <a href="mailto:purnamamarvin716m@gmail.com">purnamamarvin716m@gmail.com</a>
+        <a href="https://github.com/marvin173-digital">GitHub</a>
+        <a href="https://www.linkedin.com/in/marvin-octavianus-salim-purnama-25674332a">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>&copy; 2026 Marvin Octavianus Salim Purnama</footer>
+
+</body>
+</html>
